@@ -14,7 +14,7 @@ export const getFilteredTrips = ({ trips, filters }) => {
   console.log(trips);
   console.log(output);
 
-  //action III
+  //action IV
   // TODO - filter by duration
   console.log(filters);
   console.log(filters.duration);
