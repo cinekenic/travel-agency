@@ -6,14 +6,7 @@ import OrderOption from "../OrderOption/OrderOption";
 
 import PropTypes from "prop-types";
 
-const OrderForm = ({
-  tripCost,
-  options,
-  setOrderOption,
-  tripId,
-  tripName,
-  countryCode,
-}) => (
+const OrderForm = ({ tripCost, options, setOrderOption }) => (
   <Grid>
     <Row>
       {pricing.map((option) => (

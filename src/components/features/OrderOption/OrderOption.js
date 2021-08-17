@@ -4,17 +4,21 @@ import OrderOptionCheckboxes from "./OrderOptionCheckboxes";
 import OrderOptionDropdown from "./OrderOptionDropdown";
 import OrderOptionIcons from "./OrderOptionIcons";
 import OrderOptionNumber from "./OrderOptionNumber";
+import OrderOptionText from "./OrderOptionText";
+import OrderOptionDate from "./OrderOptionDate";
 
 const optionTypes = {
   dropdown: OrderOptionDropdown,
   icons: OrderOptionIcons,
   checkboxes: OrderOptionCheckboxes,
   number: OrderOptionNumber,
+  text: OrderOptionText,
+  //   date: OrderOptionDate,
 };
 
 const OrderOption = ({ name, type, id, setOrderOption, ...otherProps }) => {
   const OptionComponent = optionTypes[type];
-  // console.log('option type:',optionTypes[type], name, type);
+  //   console.log("option type:", optionTypes[type], name, type);
   if (!OptionComponent) {
     return null;
   } else {
