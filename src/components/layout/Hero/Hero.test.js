@@ -7,7 +7,7 @@ describe('Component Hero', () => {
     const component = shallow(<Hero titleText='Lorem ipsum' imageSrc='blbla.jpg' />);
     expect(component).toBeTruthy();
     console.log(component.debug());
-});
+  });
   
 it('should throw error without required props', () => {
   expect(() => shallow(<Hero />)).toThrow();
