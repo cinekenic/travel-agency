@@ -35,6 +35,78 @@
       "start-date": "",
       "totalCost": "$29,256",
       "id": 3
+    },
+    {
+      "car-rental": "",
+      "accommodation": "hotel",
+      "features": [],
+      "adults": 1,
+      "children": 0,
+      "name": "",
+      "contact": "",
+      "start-date": "",
+      "totalCost": "$114,036",
+      "id": 4
+    },
+    {
+      "car-rental": "",
+      "accommodation": "hotel",
+      "features": [],
+      "adults": 1,
+      "children": 0,
+      "name": "",
+      "contact": "Peter",
+      "start-date": "",
+      "totalCost": "$114,036",
+      "id": 5
+    },
+    {
+      "car-rental": "",
+      "accommodation": "hotel",
+      "features": [],
+      "adults": 1,
+      "children": 0,
+      "name": "",
+      "contact": "Peter",
+      "start-date": "",
+      "totalCost": "$114,036",
+      "id": 6
+    },
+    {
+      "car-rental": "",
+      "accommodation": "hotel",
+      "features": [],
+      "adults": 1,
+      "children": 0,
+      "name": "",
+      "contact": "Peter",
+      "start-date": "",
+      "totalCost": "$114,036",
+      "id": 7
+    },
+    {
+      "car-rental": "",
+      "accommodation": "hotel",
+      "features": [],
+      "adults": 1,
+      "children": 0,
+      "name": "",
+      "contact": "Peter",
+      "start-date": "",
+      "totalCost": "$114,036",
+      "id": 8
+    },
+    {
+      "car-rental": "",
+      "accommodation": "hotel",
+      "features": [],
+      "adults": 1,
+      "children": 0,
+      "name": "Peter",
+      "contact": "Peter",
+      "start-date": "",
+      "totalCost": "$114,036",
+      "id": 9
     }
   ]
 }
