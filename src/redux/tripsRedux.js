@@ -33,14 +33,34 @@ export const getFilteredTrips = ({ trips, filters }) => {
   }
 
   // TODO - sort by cost descending (most expensive goes first)
+  
+  
+ 
+  // for(let trip of trips){
+  //   console.log(trip['cost']);
+ 
 
-  return output;
+  function compare( a, b ) {
+    const aCost = parseInt( a.cost.substring(1).replace(',',''));
+    const bCost = parseInt (b.cost.substring(1).replace(',',''));
+   
+    if ( aCost > bCost ){
+      return -1;
+    }
+    if ( aCost < bCost ){
+      return 1;
+    }
+    return 0;
+  }
+  
+  return output.sort( compare );
 };
 
 export const getTripById = ({ trips }, tripId) => {
   console.log(trips.id);
   console.log(tripId);
   const filtered = trips.filter((trip) => trip.id === tripId);
+  console.log(filtered);
 
   // TODO - filter trips by tripId
 
