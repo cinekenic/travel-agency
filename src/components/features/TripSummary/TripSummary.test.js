@@ -22,6 +22,8 @@ describe("Component TripSummary", () => {
     const component = shallow(
       <TripSummary image={expectedImage} name={expectedAlt} tags={[]} />
     );
+    expect(component.find('img').prop('src')).toEqual(expectedImage);
+    expect(component.find('img').prop('alt')).toEqual(expectedAlt);
   });
 
   it("should render correct props: name, cost, days", () => {
