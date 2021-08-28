@@ -12,7 +12,9 @@ class HappyHourAd extends React.Component {
     setInterval(()=>{
       this.forceUpdate();
     }, 1000);
+    clearInterval();
   }
+
 
   static propTypes = {
     title: PropTypes.string,
